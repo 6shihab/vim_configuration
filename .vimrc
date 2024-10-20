@@ -80,3 +80,13 @@ inoremap { {}<ESC>hli
 inoremap [ []<ESC>hli
 inoremap ' ''<ESC>hli
 inoremap " ""<ESC>hli
+
+" highlight current line "
+set cursorline
+:highlight Cursorline cterm=bold ctermbg=black
+
+" Map Ctrl + A to select all in Normal mode
+nnoremap <C-a> ggVG
+
+" Map Ctrl + A to select all in Insert mode
+inoremap <C-a> <Esc>ggVG
