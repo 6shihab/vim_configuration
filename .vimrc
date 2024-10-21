@@ -17,7 +17,7 @@ set expandtab        " Convert tabs to spaces
 set showmatch
 
 " Enable mouse support
-" set mouse=a
+set mouse=a
 
 " Highlight current line
 " set cursorline
@@ -90,3 +90,7 @@ nnoremap <C-a> ggVG
 
 " Map Ctrl + A to select all in Insert mode
 inoremap <C-a> <Esc>ggVG
+
+" copy and paste"
+vnoremap <C-c> "+y
+vnoremap <C-v> "+p
