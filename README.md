@@ -1,4 +1,4 @@
-#Pre-requisit
+# Pre-requisit
 sudo apt install vim-gtk3
 install updated vim 
 # vim_configuration
